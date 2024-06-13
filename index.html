@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Perspective API Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-sm-4 shadow p-3">
+                <h4 class="text-center">Detector de comentarios toxicos</h4>
+                <textarea id="text-input" rows="4" class="form-control" cols="50" ></textarea>
+                <button onclick="analizarTexto()" class="btn btn-success w-100 mt-3">Analizar texto</button>
+                <pre id="output"></pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/global.js"></script>
+</body>
+
+</html>
